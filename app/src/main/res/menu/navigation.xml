@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_donate"
+        android:icon="@drawable/ic_firstic"
+
+        android:color="@color/colorOrange"
+        android:state_enabled="true"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/navigation_about"
+        android:icon="@drawable/ic_secondic"
+
+        android:state_enabled="true"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/navigation_shop"
+        android:icon="@drawable/ic_heart_icon"
+
+        android:state_enabled="true"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/navigation_find"
+        android:icon="@drawable/ic_fourthic"
+
+        android:state_enabled="true"
+        app:showAsAction="ifRoom"
+        app:itemIconSize="44dp"/>
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_fifthic"
+
+        android:color="@color/colorOrange"
+        android:state_enabled="true"
+        app:showAsAction="ifRoom"/>
+
+
+
+
+
+
+</menu>

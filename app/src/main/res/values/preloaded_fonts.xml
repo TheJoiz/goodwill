@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/amaranth_bold</item>
+        <item>@font/amatic_sc</item>
+        <item>@font/anton</item>
+        <item>@font/comfortaa</item>
+        <item>@font/courgette</item>
+        <item>@font/marck_script</item>
+    </array>
+</resources>

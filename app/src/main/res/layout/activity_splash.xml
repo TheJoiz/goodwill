@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/enb"
+    android:orientation="vertical">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:src="@drawable/splasher"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
+    <!--public class SplashActivity extends AppCompatActivity {-->
+
+    <!--@Override-->
+    <!--protected void onCreate (Bundle savedInstanceState){-->
+
+    <!--super.onCreate(savedInstanceState);-->
+    <!--int SPLASH_TIME_OUT = 3000;-->
+    <!--new Handler().postDelayed(new Runnable() {-->
+    <!--@Override-->
+    <!--public void run() {-->
+    <!--Intent intent = new Intent(SplashActivity.this, MainActivity.class);-->
+    <!--startActivity(intent);-->
+    <!--finish();-->
+    <!--}-->
+
+    <!--}, SPLASH_TIME_OUT);-->
+    <!--}-->
+    <!--}-->

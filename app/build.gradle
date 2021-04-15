@@ -1,0 +1,85 @@
+apply plugin: 'com.android.application'
+apply plugin: 'org.fabiomsr.drawableoptimizer'
+
+android {
+    signingConfigs {
+        config1 {
+            keyAlias 'key1'
+            keyPassword 'qazwsx11'
+            storeFile file('D:/keys/keys.jks')
+            storePassword 'SkyGride45'
+        }
+        release {
+            keyAlias 'key0'
+            keyPassword 'SkyGride45'
+            storeFile file('D:/keys/release/r_keys.jks')
+            storePassword 'SkyGride45'
+        }
+    }
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.project.goodwill"
+        minSdkVersion 17
+        targetSdkVersion 28
+        multiDexEnabled true
+        versionCode 2
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+            debuggable false
+        }
+        debug {
+            debuggable true
+        }
+    }
+    productFlavors {
+    }
+}
+repositories {
+    mavenCentral()
+    google()
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support:design:28.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation 'com.android.support:support-vector-drawable:28.0.0'
+    implementation 'com.android.support:support-v4:28.0.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation 'com.google.firebase:firebase-core:16.0.6'
+    implementation 'com.google.firebase:firebase-firestore:17.1.5'
+    implementation 'com.github.bumptech.glide:glide:4.8.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.8.0'
+    implementation 'com.google.firebase:firebase-auth:16.1.0'
+    implementation 'com.google.android.gms:play-services-auth:16.0.1'
+    implementation 'com.firebaseui:firebase-ui-auth:4.1.0'
+    implementation 'com.facebook.android:facebook-android-sdk:4.38.1'
+    implementation 'me.kaelaela:verticalviewpager:1.0.0@aar'
+    implementation 'com.android.support:design:28.0.0'
+    implementation 'com.android.support:multidex:1.0.3'
+    implementation 'com.aurelhubert:ahbottomnavigation:2.0.4'
+    implementation 'com.allattentionhere:fabulousfilter:0.0.5'
+    implementation 'com.google.android.gms:play-services-wallet:16.0.1'
+    implementation 'com.stripe:stripe-android:8.2.0'
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.16'
+}
+drawableOptimizer {
+    optimizer = 'zopfli'
+    compressionLevel = 9
+    iterations = 15
+    onlyOnRelease = false
+    logLevel = 'info'
+}
+apply plugin: 'com.google.gms.google-services'

@@ -1,0 +1,159 @@
+<resources>
+    <string name="meet">Познайомитись</string>
+    <string name="app_name">GoodWill</string>
+    <string name="title_profile">Профіль</string>
+    <string name="title_like">Магазин</string>
+    <string name="title_about">Про нас</string>
+    <string name="title_donate" translatable="false">Donate</string>
+    <string name="welcome">Що таке GOODWILL ?</string>
+    <string name="descr" translatable="false">dasjdhajlsdhjaslafhlasfjlkasjf;klasjflkasflk</string>
+    <string name="button_help">Кому ми допомагаємо</string>
+    <string name="button_finddriend">Знайти друга</string>
+    <string name="button_takefriend">Забрати друга</string>
+    <string name="button_feed">Нагодувати</string>
+    <string name="about_pr">ПРО ПРИТУЛОК</string>
+    <string name="title_activity_login" translatable="false">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email" translatable="false">Email</string>
+    <string name="prompt_password" translatable="false">Password (optional)</string>
+    <string name="action_sign_in" translatable="false">Sign in or register</string>
+    <string name="action_sign_in_short" translatable="false">Sign in</string>
+    <string name="error_invalid_email" translatable="false">This email address is invalid</string>
+    <string name="error_invalid_password" translatable="false">This password is too short</string>
+    <string name="error_incorrect_password" translatable="false">This password is incorrect</string>
+    <string name="error_field_required" translatable="false">This field is required</string>
+    <string name="permission_rationale" translatable="false">"Contacts permissions are needed for providing email completions."</string>
+    <string name="facebook_application_id" translatable="false">2261996714031922</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb2261996714031922</string>
+    <string name="title_activity_pet" translatable="false">PetActivity</string>
+    <string name="title_activity_peet" translatable="false">PeetActivity</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="section_format" translatable="false">Hello World from section: %1$d</string>
+    <string name="pet_photo" translatable="false">pet_photo</string>
+    <string name="pet1" translatable="false">Пушок - 8 лет</string>
+    <string name="pet2" translatable="false">Джек - 5 лет</string>
+    <string name="button_back">Повернутись</string>
+    <string name="allready">Ви вже придбали :</string>
+    <string name="you">Ви :</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="sb1"> Привіт! Мене звати Палкан, я мужній та одночасно ніжний хлопець. Мені приблизно 4 – 5 років. Я мрію про родину та будинок, який зможу гідно захищати. Ну а поки мій хазяїн шукає мене, часом я сумую.  Проте у мене багато друзів, тому часу на сум - мало. </string>
+    <string name="sb2">Привіт! Мене звати Султан. Мені близько 3–4 років. Не знаю, чому мене так назвали. Як на мене, я зовсім не схожий на султана. Можливо тому, що я, як справжній чоловік будь-де почуваюсь головним?</string>
+    <string name="sb3">Привіт! Моє ім’я - Свэтка. Таке народне в мене ім’я, щоб всі могли легко запам’ятати. Я не знаю скільки мені років, але у душі я завжди залишаюсь маленькою дівчинкою. А ще, мені всі дівчата заздрять через мої очі. Ви бачите, як гарно вони підведені чорненьким?</string>
+    <string name="sb4">Привіт! Я ще зовсім маленький і у мене поки немає імені. Але це ж круто, адже ти зможеш назвати мене на власний смак. У мене нісик в краплинку, а ще гарні очі. Будеме товаришувати?</string>
+    <string name="sb5"> Привіт! Я дуже люблю грати в хованки. Я намагався сховатись від фотоапарата, але вони мене чомусь так швидко знайшли. Я ще зовсім маленький і у мене поки немає імені, але я дуже м’якенький і добрий. Можливо, я твій майбутній друг? </string>
+    <string name="sb6">Привіт! Я дуже люблю фотографуватись. З цієї фотосесії у мене є дуууже багато фото. Якщо ти полюбляєш фотографуватись для соціальних мереж - у нас з тобою вже є те, що об’єднує. Нижче ти зможеш познакомитись з моєю сестрою, вона більш сором’язлива. </string>
+    <string name="sb7">Привіт! Я дівчинка і я хочу на ручки. Хоча я ще зовсім маленька, але вже вмію щиро дружити. Можливо, саме ти - мій друг?</string>
+    <string name="sb8"> Привіт! У мене немає імені, але я часто чую на свою адресу такі слова -  «пухнастик», «лохмастик». Спочатку, я соромився своєї пухнастості, але зараз зрозумів, що саме це - моя особливість. Я дуже відданий собака. Всіх гостей притулку я гостинно зустрічаю, а потім проводжаю до самої машини.</string>
+    <string name="sb9">Привіт! Я дуже грайливий та веселий собака. Зі мною в притулку живуть ще троє цуценят. Ми - банда, яка з радістю та любов’ю зустрічає всіх, хто приходить до нас у гості. </string>
+    <string name="sb10">Привіт! Якщо ти шукаєш такого вродливого кота, як я, рад нашому знайомству! Не знаю cкільки мені років, але я ще той міцний горішок. </string>
+    <string name="nf" translatable="false">NOT FOUND</string>
+    <string name="instruction1">Знайшли свого хвостатого друга чи подружку ?</string>
+    <string name="instruction3">- під’їхати до нас за адресою м. Київ вул. Пирогівський шлях, 186 та обрати собі друга на місці.</string>
+    <string name="number" translatable="false">+38 (063) 630 60 81</string>
+    <string name="whatis" translatable="false">&#160;&#160;&#160;GOODWILL – світ, в якому Ваш лайк та витрачений на нього час нарешті стануть корисними. \n &#160;&#160;У GOODWILL кожен має можливість допомогти безпритульним тваринам своїм лайком. \n &#160;&#160; Щодня людина проводить у соціальних мережах від 1 до 6 годин. Більшу частину цього часу люди лайкають фото інших людей. \n &#160;&#160; Чи замислювались Ви над тим, який сенс несе в собі віртуальне життя, яке часто не схоже на реальне? Що несуть в собі нескінченні лайки? На що люди спроможні задля того, щоб отримати більше лайків? Та найголовніше питання: яка користь для Вас від лайка для іншої людини?</string>
+    <string name="cost">Яка цінність вашого лайку ?</string>
+    <string name="uah20" translatable="false">30 uah</string>
+    <string name="uah40" translatable="false">60 uah</string>
+    <string name="uah60" translatable="false">100 uah</string>
+    <string name="nointernet">&#160;&#160;&#160;Нажаль у вас немає інтернету ! \n&#160;&#160; Підключіться до мрежі та перезайдіть у GoodWill.</string>
+    <string name="button_friend">Запросити друга</string>
+    <string name="button_buy">Придбати</string>
+    <string name="empty">Ваш кошик порожній</string>
+    <string name="offer">Ви бажаєте придбати :</string>
+    <string name="atall">Усього : 0 uah</string>
+    <string name="ata">Усього :</string>
+    <string name="you_buy">Ви вже придбали</string>
+    <string name="share">Поділитися у FB</string>
+
+    <string name="title_activity_welcome" translatable="false">Home Screen</string>
+
+
+    <string name="slide_1_desc">Щодня людина проводить у соціальних мережах від 1 до 6 годин. Більшу частину цього часу люди лайкають фото інших людей.</string>
+
+    <string name="slide_2_desc">Що несуть в собі нескінченні
+лайки? Та найголовніше
+питання: яка користь для Вас
+та інших від цих лайків?</string>
+
+    <string name="slide_3_desc">У GOODWILL тепер кожен може
+допомогти безпритульним
+тваринам лайком.</string>
+
+    <string name="slide4_tt">ЯК ЦЕ ПРАЦЮЄ?</string>
+    <string name="slide4_tts">5 кроків для допомоги:</string>
+    <string name="slide4_pt1" translatable="false">1</string>
+    <string name="slide4_pt2" translatable="false">2</string>
+    <string name="slide4_pt3" translatable="false">3</string>
+    <string name="slide4_pt4" translatable="false">4</string>
+    <string name="slide4_pt5" translatable="false">5</string>
+    <string name="slide4_pt1_descr">ПЕРЕХОДЬТЕ У РОЗДІЛ НАГОДУВАТИ</string>
+    <string name="slide4_pt2_descr">ОБИРАЙТЕ ЦІННІСТЬ ВАШОГО ЛАЙКУ</string>
+    <string name="slide4_pt3_descr">ЛАЙКАЙТЕ ВСЕ, ЩО БАЖАЄТЕ ПРИДБАТИ
+ДЛЯ ТВАРИН
+*Ви можете придбати товар самостійно або
+разом з Вашим другом</string>
+    <string name="slide4_pt4_descr">ОПЛАЧУЙТЕ КАРТКОЮ ЧЕРЕЗ GOOGLE PAY *Решта автоматично перераховується на рахунок притулку на загальні потреби</string>
+    <string name="slide4_pt5_descr">ЩОМІСЯЦЯ ОТРИМУЙТЕ ЗВІТ ПРО ВАШУ
+ДОПОМОГУ</string>
+    <string name="slide4_button">ПОЧАТИ!</string>
+    <string name="play_again_desc" translatable="false">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again" translatable="false">Play Again</string>
+    <string name="act_photo_1">НЕ РЯТУЙ СОБАК. ВРЯТУЙ ЛЮДИНУ.\nВ СОБІ.</string>
+    <string name="about1">GOODWILL - cоціально-відповідальна
+ініціатива, яка покликана допомогти
+безпритульним тваринам завжди бути
+ситими та в теплі.</string>
+    <string name="about2">Ми зрозуміли, що допомога повинна бути
+цільовою та зрозумілою для всіх.
+Так ми і вигадали допомогу лайками, адже
+мова лайків cьогодні зрозуміла всім.</string>
+    <string name="donate_sum">Введіть суму</string>
+    <string name="whoweare">ХТО МИ</string>
+    <string name="prit">ПРИТУЛКИ</string>
+    <string name="info_about">ЗВІТИ</string>
+    <string name="appName_title" translatable="false">GOODWILL</string>
+    <string name="about_string">- світ, в якому Ваш лайк та витрачений на нього час нарешті стануть корисними.</string>
+    <string name="donate_descr">Якщо Ви хочете зробити</string>
+    <string name="donate_descr1">благодійний внесок на</string>
+    <string name="donate_descr2">загальні потреби й</string>
+    <string name="donate_descr3">утримання притулку:</string>
+    <string name="donate_descr_pt1">ВВЕДІТЬ СУМУ, ЯКУ БАЖАЄТЕ ПЕРЕРАХУВАТИ</string>
+    <string name="donate_descr_pt2">ОПЛАТІТЬ КАРТКОЮ</string>
+    <string name="donate_descr_pt3">ДИВІТЬСЯ ЗВІТ В ОСОБИСТОМУ КАБІНЕТІ</string>
+    <string name="donate_button" translatable="false">Donate</string>
+    <string name="info_1">Історія, що не залишає байдужим</string>
+    <string name="info_12">нікого…</string>
+    <string name="info_2">У МИНУЛОМУ -</string>
+    <string name="info_22">ШКІРОДЕРНЯ, В ЯКІЙ 60 РОКІВ КАТУВАЛИ ТВАРИН</string>
+    <string name="info_3">ПЕРШИЙ ВНЕСОК,10.000 $,\nЗРОБИЛА БРІЖІТ БОРДО</string>
+    <string name="info_4">ПРО ЦЕЙ ПРИТУЛОК ЗНАЮТЬ</string>
+    <string name="info_42">У ВСЬОМУ СВІТІ.</string>
+    <string name="info_43">НЕБАЙДУЖИХ БАГАТО.\nА МИ, УКРАЇНЦІ, БАЙДУЖІ?</string>
+    <string name="info_5">ДАВАЙТЕ ЗМІНИМО ЦЮ</string>
+    <string name="info_51">ТЕНДЕНЦІЮ РАЗОМ?</string>
+    <string name="info_6">ПРИТУЛОК ДЛЯ ТВАРИН SOS,</string>
+    <string name="info_61">В ЯКОМУ НА СЬОГОДНІ</string>
+    <string name="info_62">ЗНАЙШЛИ ПРИХИСТОК БЛИЗЬКО</string>
+    <string name="info_63">1000 СОБАК ТА 300 КОТІВ</string>
+    <string name="info_64">Детальніше за посиланням:</string>
+    <string name="info_65" translatable="false">https://m.facebook.com/AnimalShelterSOS/</string>
+    <string name="next">Повернутись</string>
+    <string name="zvit1">Cкільки хвостатих друзів одужало?\nСкількох, спільними зусиллями,\nсобак та котів ви нагодували?\nСкільки пухнастиків знайшли свій\nдім?</string>
+    <string name="zvit2">Дивіться за посиланням:</string>
+    <string name="cur" translatable="false">UAH</string>
+    <string name="arrow" translatable="false">&#60;</string>
+    <string name="instruction2">- зателефонувати нам</string>
+    <string name="instruction21">Ви можете :</string>
+    <string name="clear_cart">Очистити кошик</string>
+    <string name="yourlike_1">Оберіть та розпочинайте покупки</string>
+    <string name="you_can_change">Ви завжди можете змінити обрану вартість лайку в Особистому кабінеті</string>
+    <string name="change_like">Змінити вартість лайку</string>
+    <string-array name="cost_array">
+        <item>30</item>
+        <item>60</item>
+        <item>100</item>
+    </string-array>
+    <string name="write_labl">- написати</string>
+    <string name="email_send" translatable="false">shelterkyiv@gmail.com</string>
+</resources>

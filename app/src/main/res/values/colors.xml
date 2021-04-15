@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/trans</color>
+    <color name="colorPrimaryDark">@color/trans</color>
+    <color name="colorAccent">@color/trans</color>
+    <item name="splashBackground" type="color">#ffffff</item>
+    <color name="colorOrange">#f7de8d</color>
+    <color name="colorOrange_trans">#b3f7de8d</color>
+    <color name="browni">#696969</color>
+    <color name="trans">#000000</color>
+    <color name="enb">#ffffff</color>
+    <color name="slider_color">#3d2a24</color>
+    <!--<color name="bg_screen1">#fff093</color>-->
+    <color name="bg_screen1">#f7de8d</color>
+    <color name="bg_screen2">#D8C2C1</color>
+    <color name="bg_screen3">#EEE0D6</color>
+    <!--<color name="bg_screen4">#FFF093</color>-->
+    <color name="bg_screen4">#f7de8d</color>
+
+    <color name="dot_dark_screen1">#696969</color>
+    <color name="dot_dark_screen2">#696969</color>
+    <color name="dot_dark_screen3">#696969</color>
+    <color name="dot_dark_screen4">#696969</color>
+    <color name="dot_dark_screen5">#696969</color>
+    <color name="dot_dark_screen6">#696969</color>
+    <color name="dot_dark_screen7">#696969</color>
+    <color name="dot_dark_screen8">#696969</color>
+
+    <color name="dot_light_screen1">#ffffff</color>
+    <color name="dot_light_screen2">#ffffff</color>
+    <color name="dot_light_screen3">#ffffff</color>
+    <color name="dot_light_screen4">#ffffff</color>
+    <color name="dot_light_screen5">#ffffff</color>
+    <color name="dot_light_screen6">#ffffff</color>
+    <color name="dot_light_screen7">#ffffff</color>
+    <color name="dot_light_screen8">#ffffff</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+        <item>@color/dot_light_screen5</item>
+        <item>@color/dot_light_screen6</item>
+        <item>@color/dot_light_screen7</item>
+        <item>@color/dot_light_screen8</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+        <item>@color/dot_dark_screen5</item>
+        <item>@color/dot_dark_screen6</item>
+        <item>@color/dot_dark_screen7</item>
+        <item>@color/dot_dark_screen8</item>
+    </array>
+</resources>

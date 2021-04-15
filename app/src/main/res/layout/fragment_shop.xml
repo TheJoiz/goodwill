@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <android.support.constraint.ConstraintLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/enb">
+
+        <ImageView
+            android:id="@+id/pet_photo"
+            android:layout_width="314dp"
+            android:layout_height="285dp"
+            android:layout_marginStart="52dp"
+            android:layout_marginTop="64dp"
+            android:layout_marginEnd="52dp"
+            android:clickable="true"
+            android:contentDescription="@string/pet_photo"
+            android:focusable="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/heart"
+            app:layout_constraintHorizontal_bias="0.571" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:tint="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sb_descr"
+        app:srcCompat="@drawable/down_arrow_grey"
+        tools:srcCompat="@drawable/down_arrow_grey" />
+
+    <TextView
+        android:id="@+id/sb_descr"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@null"
+        android:fontFamily="@font/comfortaa"
+        android:textAllCaps="false"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pet_photo" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifAnim"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+
+        app:layout_constraintBottom_toTopOf="@+id/sb_descr"
+        app:layout_constraintEnd_toStartOf="@+id/pet_photo"
+        app:layout_constraintStart_toEndOf="@+id/pet_photo"
+        app:layout_constraintTop_toTopOf="@+id/pet_photo"
+        app:layout_constraintVertical_bias="0.511" />
+
+    <Button
+            android:id="@+id/button9"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/round_corner"
+            android:fontFamily="@font/amaticscregular"
+            android:onClick="goToCart"
+            android:text="@string/button_buy"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/heart"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/progress_heart"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:background="@null"
+            android:id="@+id/imageView9"
+            android:layout_width="113dp"
+            android:layout_height="119dp"
+            android:layout_marginStart="9dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="20mm"
+            app:layout_constraintStart_toEndOf="@+id/pet_photo"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ringhalf" />
+
+        <ImageView
+            android:background="@null"
+            android:id="@+id/imageView10"
+            android:layout_width="49dp"
+            android:layout_height="109dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginRight="28dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/pet_photo"
+            app:layout_constraintTop_toBottomOf="@+id/heart"
+            app:layout_constraintVertical_bias="0.292"
+            app:srcCompat="@drawable/circlhalf" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="addProduct"
+        app:layout_constraintEnd_toStartOf="@+id/sb_descr"
+        app:layout_constraintTop_toBottomOf="@+id/pet_photo"
+        app:srcCompat="@drawable/like_item" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/comfortaa"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/sb_descr"
+        app:layout_constraintTop_toTopOf="@+id/sb_descr" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/comfortaa"
+        android:text="@string/cur"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/price"
+        app:layout_constraintTop_toTopOf="@+id/sb_descr" />
+
+    <TextView
+        android:id="@+id/weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/comfortaa"
+        android:textColor="@color/colorAccent"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/sb_descr"
+        app:layout_constraintTop_toBottomOf="@+id/price" />
+
+        <TextView
+            android:id="@+id/textView52"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/comfortaa"
+            android:text="g."
+            android:textColor="@color/colorAccent"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/weight"
+            app:layout_constraintTop_toBottomOf="@+id/textView51" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button9"
+        app:srcCompat="@drawable/add_friend" />
+
+</android.support.constraint.ConstraintLayout>
